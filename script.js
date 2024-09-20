@@ -77,10 +77,10 @@ btns.forEach((btn, i) => {
 const autoSlide = () => {
     currentSlide = (currentSlide + 1) % totalSlides;
     slidernav(currentSlide);
-    setTimeout(autoSlide, 7000);
+    setTimeout(autoSlide, 5000);
 };
 
-setTimeout(autoSlide, 7000);
+setTimeout(autoSlide, 5000);
 
 
 
