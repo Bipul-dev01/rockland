@@ -90,15 +90,15 @@ section{
     
 }
 .home .content h1{
-    font-size: 4em;
+    font-size: 3em;
     font-weight: 900;
     text-transform: uppercase;
     letter-spacing: 5px;
     line-height: 70px;
-    margin-bottom: 30px;
+    margin-bottom: 18px;
 }
 .home .content h1 span{
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 600;
 }
 .home .content p{
@@ -191,6 +191,19 @@ section{
     }
     section{
         padding: 100px 20px;
+    }
+
+    .home .content h1{
+        font-size: 2em;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        line-height: 70px;
+        margin-bottom: 20px;
+    }
+    .home .content h1 span{
+        font-size: .8em;
+        font-weight: 600;
     }
     .home .media-icons{
         right: 15px;
