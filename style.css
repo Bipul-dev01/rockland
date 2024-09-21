@@ -23,13 +23,18 @@ header{
     transition: 0.5s ease;
 }
 header .brand{
-    color: #fff;
-    font-size: 1.7em;
-    font-weight: 700;
+    color: #AFCB06;
+    /* color: #fff; */
+    font-size: 1.9em;
+    font-weight: 800;
     letter-spacing: 8px;
     text-transform: uppercase;
     text-decoration: none;
 }
+header .brand span{
+    color: #A8A6A7 ;
+}
+
 header .navigation{
     position: relative;
 }
@@ -95,11 +100,12 @@ section{
     text-transform: uppercase;
     letter-spacing: 5px;
     line-height: 70px;
-    margin-bottom: 18px;
+    margin-bottom: -2px;
 }
-.home .content h1 span{
-    font-size: 1em;
+.home .content h2{
+    font-size: 3em;
     font-weight: 600;
+    margin-bottom: 15px;
 }
 .home .content p{
     margin-bottom: 35px;
