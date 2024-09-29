@@ -15,7 +15,7 @@
 
 ::-webkit-scrollbar-track{background-color: transparent;}
 
-::-webkit-scrollbar-thumb{background-color: hsl(38, 65%, 72%);}
+::-webkit-scrollbar-thumb{background-color: hsl(38, 74%, 71%);}
 
 
 header{
@@ -455,46 +455,9 @@ section{
 }
 
 
-
-
-
 @media (max-width: 480px) {
     
     .box3d{
         transform: perspective(600px) rotateY(0deg);
     }
-    .btnss{
-        bottom: 50px;
-        display: flex;
-        gap: 30px;
-        top: 87%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    .btnss .btnn{
-        width: 60px;
-        height: 60px;
-        border: 2px solid #fff;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        cursor: pointer;
-    }
-    .btnss .btnn::before{
-        width: 15px;
-        height: 15px;
-        border-top: 3px solid #fff;
-        border-right: 3px solid #fff;
-        transform: rotate(45deg) translate(-2.5px, 2.5px);
-    }
-    .btnss .btnn.prevv::before{
-        transform: rotate(225deg) translate(-2.5px, 2.5px);
-    }
-    .btnss .btnn:active::before{
-        border-top: 3px solid #000;
-        border-right: 3px solid #000;
-    }
-    
-    
 }

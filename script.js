@@ -126,12 +126,12 @@ function autoSwitch() {
 // Start the automatic slide switch
 //autoSwitch();
 
-
-
-
-
 // Step 6: Start the automatic slide switch
 autoSwitch(); // Start automatic slide switching
+
+
+
+//3D Image Slider JS code
 
 let prevv = document.querySelector(".prevv");
 let nextt = document.querySelector(".nextt");
