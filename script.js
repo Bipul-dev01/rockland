@@ -1,4 +1,20 @@
 
+// $(document).ready(function(){
+//     $(window).scroll(function(){
+//         // sticky navbar on scroll script
+//         if(this.scrollY > 20){
+//             $('.header').addClass("sticky");
+//         }else{
+//             $('.header').removeClass("sticky");
+//         }
+//          // scroll-up button show/hide script
+//          if(this.scrollY>500){
+//             $('.scroll-up-btn').addClass("show");
+//          }else{
+//             $('.scroll-up-btn').removeClass("show");
+//          }
+//     });
+// });
 
 // Toggle menu
 const menuBtn = document.querySelector(".menu-btn");
@@ -116,4 +132,20 @@ function autoSwitch() {
 
 // Step 6: Start the automatic slide switch
 autoSwitch(); // Start automatic slide switching
+
+let prevv = document.querySelector(".prevv");
+let nextt = document.querySelector(".nextt");
+let boxx = document.querySelector(".box3d");
+
+let degree = 0;
+
+prevv.addEventListener('click', function(){
+    degree += 45;
+    boxx.style = `transform: perspective(1500px) rotateY(${degree}deg);` ;
+});
+
+nextt.addEventListener('click', function(){
+    degree -= 45;
+    boxx.style = `transform: perspective(1500px) rotateY(${degree}deg);` ;
+});
 
